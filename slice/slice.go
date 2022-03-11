@@ -8,9 +8,9 @@ func main() {
 
 	fmt.Println(s)
 
-	s[0] = 20
-	s[1] = 32
-	s[2] = 34
+	s[0] = 1
+	s[1] = 2
+	s[2] = 3
 
 	fmt.Println(s)
 
