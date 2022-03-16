@@ -18,3 +18,11 @@ func channel() {
 	res := <-ch
 	fmt.Printf("received %d\n", res)
 }
+
+/* Result always
+sending 5 from go routine
+received 5
+
+This is synchronous behavior as the main routine waits result from channel
+at res := <-ch line
+*/
