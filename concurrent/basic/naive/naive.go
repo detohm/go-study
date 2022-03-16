@@ -14,5 +14,5 @@ func work() {
 /* Result (most of the time)
 print from main
 
-Note: main routine finished before another go routine to complete
+Note: not good pattern : main routine finished before another go routine to complete
 */
