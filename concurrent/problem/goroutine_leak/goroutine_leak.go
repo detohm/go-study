@@ -52,6 +52,10 @@ due to blocked from nil channel.
 The number of runtime goroutines will keep increasing
 which affects memory consumption.
 
+Please also note that goroutines are not garbage collected; they must
+exit on thier own.
+(However, Heap memory reference in goroutines are garbage collected.)
+
 Output:
 num of goroutines: 370824
 num of goroutines: 761902
