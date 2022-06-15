@@ -43,3 +43,13 @@ func ExampleMul() {
 	fmt.Println(Mul(2, 3))
 	// Output: 6
 }
+
+/* Example Commands
+go test -v ./test/simple
+
+go test -coverprofile=coverage.out
+go tool cover -html=coverage.out
+
+go test -v -bench=./test/simple ./test/simple
+go test -v -bench=Mul ./test/simple
+*/
