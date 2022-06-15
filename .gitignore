@@ -15,3 +15,5 @@
 main
 
 created-file.txt
+.env
+service-account.json
