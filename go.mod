@@ -4,6 +4,8 @@ go 1.18
 
 require (
 	cloud.google.com/go/pubsub v1.22.2
+	github.com/go-gl/gl v0.0.0-20211210172815-726fda9656d6
+	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20200222043503-6f7a984d4dc4
 	github.com/joho/godotenv v1.4.0
 	github.com/segmentio/kafka-go v0.4.32
 )
