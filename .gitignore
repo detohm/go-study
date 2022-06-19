@@ -17,3 +17,5 @@ main
 created-file.txt
 .env
 service-account.json
+*.wasm
+wasm_exec.js
