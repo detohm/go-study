@@ -44,6 +44,20 @@ func main() {
 	value:[2]
 	*/
 
+	slice4 := slice3[0:5]
+	fmt.Printf("slice4 - header-addr:%p arr-addr:%p len:%d cap:%d value:%v\n",
+		&slice4,
+		&slice4[0],
+		len(slice4), cap(slice4),
+		slice4)
+	/* Result - interesting slice4 has the same underlying array as "slice3"
+	if slice3[0:6], it will error
+
+	slice4 - header-addr:0xc00000c0c0 arr-addr:0xc00001c188
+	len:5 cap:5
+	value:[2 3 4 5 6]
+	*/
+
 	fmt.Println()
 
 	slice[0] = 1234
